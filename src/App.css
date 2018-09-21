@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" "content" "footer";
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  flex-wrap: wrap;
+  grid-row-gap: 0;
+  background: rgb(3, 131, 255);
+}
+
+.header {
+  margin: 10px;
+  grid-area: header;
+}
+
+
+article {
+  grid-area: content;
+  background: white;
+}
+
+footer {
+  grid-area: footer;
+  background: white;
+  position: sticky; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.grey {
+  color: gray;
+}
+
+.primary-color {
+  color: rgb(3, 131, 255);
+}

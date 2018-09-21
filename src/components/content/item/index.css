@@ -1,0 +1,41 @@
+.item {
+    margin: 10px;
+    width: 100%;
+}
+
+.item table {
+    width: 100%;
+}
+
+.item tr {
+    display: table-row;
+    height: auto;
+    line-height: 1.2;
+}
+
+.item td {
+    vertical-align: middle;
+}
+
+.item td img {
+    width: 100%;
+}
+
+.item-img {
+    width: 80px;
+}
+
+.item-info {
+    width: 1fr;
+    padding-left: 15px;
+    color: gray;
+}
+
+.item-info div {
+    margin-bottom: 15px;
+}
+
+.item-action {
+    width: 50px;
+    padding-right: 10px;
+}
